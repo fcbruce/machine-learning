@@ -25,16 +25,19 @@ random.shuffle(data)
 
 data = np.array(data).reshape(-1, 5)
 
-X = np.float64(data[:, : 4])
+X = np.float64(data[:, : -1])
+m, n = X.shape
+X = np.hstack((np.ones((m, 1)), X))
 
-y = data[:, 4:]
+yl = data[:, -1:]
 
-yl = []
+y = np.zeros((m, 3), dtype = np.int32)
 
-for name in y:
-    yl.append(define.TYPE[name[0]])
 
-y = np.array(yl).reshape(-1, 1)
+i = 0
+for name in yl:
+    y[i, define.TYPE[name[0]]] = 1
+    i += 1
 
 X_train = X[: train_count, :]
 y_train = y[: train_count, :]
