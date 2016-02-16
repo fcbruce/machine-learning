@@ -36,3 +36,8 @@ alt='\frac{\partial J(\theta)}{\partial\theta_0}=\frac{1}{m}\sum_{i=1}^{m}(h_{\t
 <img src='http://latex.numberempire.com/render?%5Cfrac%7B%5Cpartial%20J%28%5Ctheta%29%7D%7B%5Cpartial%5Ctheta_j%7D%3D%5Cleft%28%5Cfrac%7B1%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h_%7B%5Ctheta%7D%28x%5E%7B%28i%29%7D%29-y%5E%7B%28i%29%7D%29x_%7Bj%7D%5E%7B%28i%29%7D%5Cright%29%2B%5Cfrac%7B%5Clambda%7D%7Bm%7D%5Ctheta_%7Bj%7D%5C%20%2C%5C%20j%20%5Cgeqslant%201&sig=5af78f21388ba83d755728199ab86f9b'
 alt='\frac{\partial J(\theta)}{\partial\theta_j}=\left(\frac{1}{m}\sum_{i=1}^{m}(h_{\theta}(x^{(i)})-y^{(i)})x_{j}^{(i)}\right)+\frac{\lambda}{m}\theta_{j}\ ,\ j \geqslant 1' />
 
+
+----
+
+run make\_data.py to build data set  
+run __main__.py to train and test
