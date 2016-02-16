@@ -40,4 +40,4 @@ alt='\frac{\partial J(\theta)}{\partial\theta_j}=\left(\frac{1}{m}\sum_{i=1}^{m}
 ----
 
 run make\_data.py to build data set  
-run __main__.py to train and test
+run \_\_main\_\_.py to train and test
