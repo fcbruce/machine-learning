@@ -8,3 +8,4 @@ machine-learning-ex3  Multi-class Classification and Neural Networks
 machine-learning-ex4  Neural Network Learning  
 machine-learning-ex5  Regularized Linear Regression and Bias/Variance  
 machine-learning-ex6  Support Vector Machines  
+machine-learning-ex7  K-Means Clustering and PCA  
