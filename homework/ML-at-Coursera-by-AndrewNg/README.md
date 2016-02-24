@@ -9,3 +9,8 @@ machine-learning-ex4  Neural Network Learning
 machine-learning-ex5  Regularized Linear Regression and Bias/Variance  
 machine-learning-ex6  Support Vector Machines  
 machine-learning-ex7  K-Means Clustering and PCA  
+machine-learning-ex8  Anomaly Detection and Recommender Systems  
+
+---
+
+Score 97.3% on 2016\.2\.23  
