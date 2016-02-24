@@ -13,7 +13,7 @@ accruancy of test: 100.00%
 ####data set  
 training set: 60%  
 cross validation set: 20%  
-testing set: 20%  
+test set: 20%  
 
 ####some important matrices  
 m: number of sample  
