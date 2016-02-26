@@ -8,7 +8,7 @@
 
 from cost_function import cost_function
 
-def gradient_descend(theta, X, y, alpha, lam):
+def gradient_descent(theta, X, y, alpha, lam):
     J, grad = cost_function(theta, X, y, lam)
 
     return theta - alpha * grad

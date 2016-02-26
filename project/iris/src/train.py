@@ -6,7 +6,7 @@
 #
 #
 
-from gradient_descend import gradient_descend
+from gradient_descent import gradient_descent
 import numpy as np
 
 def train(X, y, alpha, lam, iter_num):
@@ -17,7 +17,7 @@ def train(X, y, alpha, lam, iter_num):
     for i in range(iter_num):
         for j in range(k):
             theta = all_theta[j, :]
-            theta = gradient_descend(theta, X, y[:, j], alpha, lam)
+            theta = gradient_descent(theta, X, y[:, j], alpha, lam)
             all_theta[j, :] = theta
 
     return all_theta
