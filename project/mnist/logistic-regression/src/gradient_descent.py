@@ -23,9 +23,7 @@ def cost_function(theta, X, y, lam):
     J = np.sum(-(np.dot(y, np.log(h))) - np.dot((1. - y), np.log(1. - h))) / m + lam * (sum(theta * theta) - theta[0] ** 2) / (2. * m)
 
     grad = np.dot(X.T, h - y) + lam * theta
-    print grad
     grad[0] -= theta[0] * lam
-    print grad
     grad /= m
 
     return J, grad

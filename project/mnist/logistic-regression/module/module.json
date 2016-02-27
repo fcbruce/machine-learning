@@ -1,0 +1,13 @@
+{
+  "images-train" : "../../data/train-images-idx3-ubyte.npy", 
+  "labels-train" : "../../data/train-labels-idx1-ubyte.npy", 
+  "images-test" : "../../data/t10k-images-idx3-ubyte.npy", 
+  "labels-test" : "../../data/t10k-labels-idx1-ubyte.npy", 
+  "save-module-file" : "../../data/module_save.npy", 
+  "batch size" : 100,
+  "iter number" : 100000, 
+  "test gap" : 100, 
+  "learning rate" : 0.000001, 
+  "weight decay" : 0.01, 
+  "train size" : 50000
+}
