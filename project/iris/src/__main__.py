@@ -29,5 +29,5 @@ all_theta = train(X_train, y_train, alpha, lam, iter_num)
 #print "accurancy of cv: %.2f%%" % (accurancy * 100)
 
 p = predict(all_theta, X_test)
-accurancy = util.accurancy(p, y_test)
-print "accurancy of test: %.2f%%" % (accurancy * 100)
+accuracy = util.accuracy(p, y_test)
+print "accuracy of test: %.2f%%" % (accuracy * 100)

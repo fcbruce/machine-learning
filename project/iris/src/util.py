@@ -6,15 +6,15 @@
 #
 #
 
-def accurancy(prediction, ground_truth):
+def accuracy(prediction, ground_truth):
     m, k = prediction.shape
 
-    accurancy = 0.0
+    accuracy = 0.0
 
     for i in range(m):
         if (prediction[i, :] == ground_truth[i, :]).all():
-            accurancy += 1
+            accuracy += 1
 
-    accurancy /= m
+    accuracy /= m
 
-    return accurancy
+    return accuracy

@@ -8,7 +8,7 @@ learning rate: alpha = 0.1
 weight decay: lambda = 0.1  
 iteration number: 100  
 
-accruancy of test: 100.00%  
+accruacy of test: 100.00%  
 
 ####data set  
 training set: 60%  
