@@ -1,0 +1,6 @@
+{
+  "train-images": "../../data/train-images-idx3-ubyte.npy",
+  "train-labels": "../../data/train-labels-idx1-ubyte.npy",
+  "test-images": "../../data/t10k-images-idx3-ubyte.npy",
+  "test-labels": "../../data/t10k-labels-idx1-ubyte.npy"
+}
