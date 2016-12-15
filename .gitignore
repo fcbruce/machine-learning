@@ -1,2 +1,5 @@
 *.npy
 *.pyc
+project/dogs-vs-cats-redux-kernels-edition/data
+project/dogs-vs-cats-redux-kernels-edition/model
+*.DS_Store
